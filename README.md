@@ -3,7 +3,6 @@
 > **24/7/365 Real-Time Rail Treasury Balancing Engine & ISO 20022 camt.050 Sweeper**  
 > *Autonomous Velocity Forecasting, Instant Liquidity Rebalancing & Basel BCBS 248 Attestation*  
 > Direct Integration with **[a2zsoc.com](https://a2zsoc.com)** Evidence Vault  
-> Connected to **2,000 Workflows**: `Cluster_04 (Payment Rails & Clearing)` & `Cluster_06 (Core Banking Ledgers)`
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
@@ -63,15 +62,13 @@ flowchart TD
 
 ---
 
-## 🔄 Linkage to the 2,000 Workflows Ecosystem
+## 🔄 Real-Time Settlement & Treasury Standards Scope
 
-This standalone engine executes workflows in:
-* **[`fintech_payments_banking_1000_workflows/Cluster_04_Payment_Rails_Clearing_Settlement_0301_0400`](file:///Users/ahmedhassan/Downloads/2000%20workflows/fintech_payments_banking_1000_workflows/Cluster_04_Payment_Rails_Clearing_Settlement_0301_0400)**:
-  * Workflows `0301–0330`: FedNow & TCH RTP liquidity pre-funding & ISO 20022 `camt.050` messaging.
-  * Workflows `0331–0365`: Cross-rail liquidity fragmentation and netting cycles.
-* **[`fintech_payments_banking_1000_workflows/Cluster_06_Core_Banking_Ledgers_Accounting_0501_0600`](file:///Users/ahmedhassan/Downloads/2000%20workflows/fintech_payments_banking_1000_workflows/Cluster_06_Core_Banking_Ledgers_Accounting_0501_0600)**:
-  * Workflows `0531–0560`: Basel BCBS 248 intraday liquidity metric reporting.
-  * Workflows `0561–0590`: Fed Reg D reserve requirement tracking.
+This standalone engine codifies and automates real-time rail liquidity management:
+* **ISO 20022 Financial Messaging**: Compliant generation and parsing of `camt.050.001.05 LiquidityCreditTransfer` messages.
+* **Instant Payment Rail Interoperability**: Continuous pre-funding coordination across FedNow, TCH RTP, SEPA Instant (TIPS/RT1), and Pix (SPI).
+* **Basel Committee on Banking Supervision (BCBS 248)**: Automated metric tracking for intraday liquidity monitoring and reporting.
+* **Federal Reserve Regulation D**: Continuous reserve balance tracking to eliminate costly daylight and overnight overdraft penalties.
 
 ---
 
