@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intraday-liquidity-orchestrator"
+version = "1.0.0"
+description = "24/7/365 Real-Time Rail Treasury Balancing Engine & Automated ISO 20022 camt.050 Liquidity Sweeper"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Ahmed Hassan", email = "contact@a2zsoc.com" }
+]
+dependencies = []
+
+[project.scripts]
+liquidity-orchestrator = "intraday_liquidity_orchestrator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["intraday_liquidity_orchestrator*"]
